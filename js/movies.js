@@ -1,4 +1,4 @@
-const numberOfFilns = +prompt('Сколько фильмов вы уже посмотрели?', '');
+/* const numberOfFilns = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilns,
@@ -16,4 +16,4 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
