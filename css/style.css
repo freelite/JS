@@ -1,6 +1,12 @@
+body {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
 h1 {
-    color: rgb(102, 1, 235);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px rgb(9, 255, 0);
 }
 h2 {
-    color: red;
+    color: rgb(39, 194, 0);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }

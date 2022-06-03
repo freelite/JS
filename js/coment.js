@@ -8,13 +8,13 @@ const obj = {
     isMarried: false
 };
 
-console.log(obj.name);
+console.log(obj.name);  //Diman
 
 let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {}, []];
-console.log(arr[1]);
+console.log(arr[1]);  //orange.jpg
 
 const result = confirm('Are you here?');
-console.log(result);
+console.log(result);   //Are you here?
 
 const answer = +prompt('Вам есть 18?', '18');
 console.log(answer + 5);
@@ -33,7 +33,7 @@ console.log(`https://someurl.com/${category}/5`);
 
 const user = 'Dmitriy';
 
-alert(`Привет, ${user}`);
+alert(`Привет, ${user}`);  //Привет, Dmitriy
 
 console.log('arr' + ' - object');
 console.log(4 + '5');
@@ -44,5 +44,5 @@ let incr = 10,
 incr++;
 decr--;
 
-console.log(incr);
-console.log(decr);
+console.log(incr);  //11
+console.log(decr);  //9

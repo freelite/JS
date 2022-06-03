@@ -1,4 +1,4 @@
-"use strict";
+"use strict";  //Строгий режим
 
 let num = 20;
 
@@ -8,15 +8,15 @@ function showFirstMessage(text) {
 }
 
 showFirstMessage('WTF???');
-console.log(num);
+console.log(num); //20
 
-/* function calc(a, b) {
-    return (a + b);
-}
+// function calc(a, b) {
+//     return (a + b);
+// }
 
-console.log(calc(4, 3));
-console.log(calc(5, 6));
-console.log(calc(10, 5)); */
+// console.log(calc(4, 3));   //7
+// console.log(calc(5, 6));   //11
+// console.log(calc(10, 5));  //15
 
 function ret() {
     let num = 50;
@@ -24,7 +24,7 @@ function ret() {
 }
 
 const anotherNum = ret();
-console.log(anotherNum);
+console.log(anotherNum);  //50
 
 const logger = function() {
     console.log('hello!');
@@ -37,4 +37,4 @@ logger();
 const calc = (a, b) => {
     return a + b;
 };
-console.log(calc(2, 5));
+console.log(calc(2, 5));  //7
