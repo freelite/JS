@@ -7,9 +7,9 @@ alert( ++x ); // '6'
 // [] + false - null + true
 console.log([] + false - null + true);   // 'NaN'
 
-let y = 1;
-let c = y = 2;
-alert(c);        // '2'
+// let y = 1;
+// let c = y = 2;
+// alert(c);        // '2'
 
 console.log([] + 1 + 2);    // '12'
 
@@ -19,7 +19,7 @@ console.log(2 && 1 && null && 0 && undefined);  // 'null'
 // 'И' запинается на лжи
 // 'ИЛИ' запинается на правде
 
-console.log(!!(1 && 2) === (1 && 2));   // 'false'
+// console.log(!!(1 && 2) === (1 && 2));   // 'false'
 
 alert(null || 2 && 3 || 4);   // '3'
 
