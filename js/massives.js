@@ -51,3 +51,58 @@ const str = prompt('', '');
 const products = str.split(', ');
 products.sort();
 console.log(products.join('; '));
+
+// filter
+
+const names = ['Ivan', 'Ann', 'Romario', 'Archer'];
+
+const shortNames = names.filter(function(name) {
+    return name.length < 5;
+});
+
+console.log(shortNames);
+
+// map
+
+const answers = ['IvAn', 'AnnA', 'RomaRIo', 'ArcHEr'];
+const results = answers.map(item => item.toLowerCase());
+console.log(results);
+// ||
+let answers2 = ['IvAn', 'AnnA', 'RomaRIo', 'ArcHEr'];
+answers2 = answers.map(item => item.toLowerCase());
+console.log(answers2);
+
+// every/some
+
+const some = [4, 'qwq', 'hello world!'];
+console.log(some.some(item => typeof(item) === 'number'));
+
+const some2 = [4, 5, 7];
+console.log(some2.every(item => typeof(item) === 'number'));
+
+// reduce
+
+const arr1 = [4, 5, 1, 3, 2, 6];
+
+const res = arr1.reduce((sum, current) => sum + current, 3);
+console.log(res);
+
+const array = ['apple', 'pear', 'plum'];
+
+const result = array.reduce((sum, current) => `${sum}, ${current}`);
+console.log(result);
+
+// Делаем массив из объекта
+
+const obj = {
+    diman: 'persone',
+    nina: 'persone',
+    dog: 'animal',
+    cat: 'animal'
+};
+
+const newArr = Object.entries(obj)
+.filter(item => item[1] === 'persone')
+.map(item => item[0]);
+
+console.log(newArr);
